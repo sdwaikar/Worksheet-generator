@@ -1,0 +1,17 @@
+/* style.css */
+.stTextInput > div > div > input,
+.stSelectbox > div > select,
+.stMultiSelect > div > div > div {
+  border: 2px solid #0a4da2;
+  border-radius: 5px;
+}
+
+.stButton > button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+}
+
+.stTextArea > div > textarea {
+  border-radius: 5px;
+}

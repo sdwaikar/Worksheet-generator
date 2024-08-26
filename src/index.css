@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('C:\Users\li316\kai-AI-backend\NeuralNet-Navigators\frontend\worksheet\src\background3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly opaque white to improve readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .form-group {
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

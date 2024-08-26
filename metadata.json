@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    {
+      "label": "Grade Level",
+      "name": "grade_level",
+      "type": "select",
+      "options": ["Primary", "Secondary", "High School", "University"]
+    },
+    {
+      "label": "Enter the quiz topic:",
+      "name": "quiz_topic",
+      "type": "text"
+    },
+    {
+      "label": "Number of Multiple Choice Questions",
+      "name": "num_mcq",
+      "type": "number",
+      "min": 0,
+      "max": 10,
+      "default": 1
+    },
+    {
+      "label": "Number of Fill-in-the-Blank Questions",
+      "name": "num_fib",
+      "type": "number",
+      "min": 0,
+      "max": 10,
+      "default": 1
+    },
+    {
+      "label": "Number of True/False Questions",
+      "name": "num_tf",
+      "type": "number",
+      "min": 0,
+      "max": 10,
+      "default": 1
+    },
+    {
+      "label": "Number of Open-Ended Questions",
+      "name": "num_oe",
+      "type": "number",
+      "min": 0,
+      "max": 10,
+      "default": 1
+    },
+    {
+      "label": "Upload PDF files",
+      "name": "files",
+      "type": "file"
+    }
+  ]
+}
